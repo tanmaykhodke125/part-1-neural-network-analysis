@@ -1,0 +1,6 @@
+Experiment,Hidden Layers,Neurons,Learning Rate,Epochs,Batch Size,Train Acc,Test Acc
+Baseline,2,"[64, 32]",0.001,30,32,0.99,0.9825
+Small Network,1,[16],0.001,30,32,0.985,0.985
+High LR,2,"[64, 32]",0.01,30,32,0.9969,0.975
+More Epochs,2,"[64, 32]",0.001,50,32,0.9969,0.98
+Large Batch,2,"[64, 32]",0.001,30,64,0.9856,0.985
